@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Vertical Centrado</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    .custom-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    .custom-menu a {
+        margin: 5px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .custom-menu a:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 custom-menu">
+                <a href="#">Botón 1</a>
+                <a href="#">Botón 2</a>
+                <a href="#">Botón 3</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
